@@ -15,7 +15,7 @@ body {
 	color: black;
 }
 
-#time {
+.time {
 	font-size: 8rem;
 }
 
@@ -28,8 +28,8 @@ h2 {
 	opacity: 0.6;
 }
 
-@media (max-width: 700px) {
-	#time {
+@media (max-width: 768px) {
+	.time {
 		font-size: 6rem;
 	}
 }
